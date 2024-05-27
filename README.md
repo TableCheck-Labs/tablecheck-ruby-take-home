@@ -7,8 +7,8 @@ Take-home project for TableCheck's Ruby roles.
 ## Requirements:
 ### E-commerce Platform:
 Create a basic e-commerce platform with the following features:
-* Import product from CSV (name, category, qty, default price). A sample CSV is provided.
-* Show product details (including the dynamic price)
+* Import products from CSV (name, category, qty, default price). The inventory CSV is provided [here](https://github.com/TableCheck-Labs/tablecheck-ruby-take-home/blob/main/inventory.csv).
+* Show product details (including the dynamic price).
 * Place orders, where orders contain a list of products (ID, Qty, price per item). Successful order placements should decrease the inventory and fail if the inventory is low.
 * A Dynamic Pricing Engine. Implement a pricing engine that adjusts product prices based on:
   * Demand: Increase price if the product is frequently added to carts or purchased.
@@ -18,9 +18,9 @@ Create a basic e-commerce platform with the following features:
 This Competitor Price API (https://sinatra-pricing-api.fly.dev/docs) is a simulation of a realistic third party provider.
 
 Write a clear and concise README documentation that includes:
-* An overview of the E-commerce platform, and how the dynamic pricing works
-* All API endpoints, request/response formats, and examples of usage
-* A simple guide on how to set up and run the application locally
+* An overview of the E-commerce platform, and how the dynamic pricing works.
+* All API endpoints, request/response formats, and examples of usage.
+* A simple guide on how to set up and run the application locally.
 
 ## Technical Requirements:
 ### Backend:
